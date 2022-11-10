@@ -1,0 +1,18 @@
+@import './variable.scss';
+@import './flex.scss';
+@import './through.scss';
+@import './base.scss';
+
+// resize
+// html {
+//   font-size: calc(100vw / 100) !important;
+//   --s-font-size: call(100vw / 100) !important;
+//   @media screen and (min-width: 1300px) {
+//     font-size: 13Px !important;
+//     --s-font-size: 13Px !important;
+//   }
+//   @media screen and (max-width: 750px) {
+//     font-size: calc(100vw / 57.69230769230769) !important;
+//     --s-font-size: call(100vw / 57.69230769230769) !important;
+//   }
+// }

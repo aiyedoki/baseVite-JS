@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+body {
+  /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+  -webkit-font-smoothing: antialiased;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+  cursor: default;
+}
+
+img {
+  /* border 0 兼容低版本浏览器：图片外面包含了链接会有边框的问题 */
+  border: 0;
+  /* 取消图片底侧有空白缝隙的问题 */
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  min-width: 375px;
+}
+
+.m-container {
+  width: 750px;
+}
